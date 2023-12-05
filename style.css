@@ -1,0 +1,302 @@
+
+body{
+    background-color: black;
+    width: 1500px;
+}
+.logo{
+    margin-top: 10px;
+}
+#header{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+}
+
+#header ul{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    font-size:large;
+}
+#header ul li{
+    display: inline-block;
+    margin: 10px;
+}
+#header ul li:hover{
+    color: aqua;
+}
+.pic{
+    position: relative;
+}
+span{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 270px;
+    right: 410px;
+}    
+
+.back{
+    position: absolute;
+    right: 400px;
+    top: 200px;
+    z-index: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.back1{
+    position: absolute;
+    right: 400px;
+    top: 200px;
+    z-index: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+b{
+    font-size: 70px;
+    float: left;
+    position: absolute;
+    right: 680px;
+    top:200px;
+    color: white;
+}
+.name{
+    position: absolute;
+    top: 180px;
+    right: 450px;
+    color: white;
+    font-size: 25px;
+   
+}
+.About{
+    position: relative;
+}
+.tt{
+    color: white;
+    position: absolute;
+    right: 450px;
+    top: 25px;
+}
+.pair{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.para{
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    top: 150px;
+    right: 150px;
+    text-align: justify;
+    margin-left: 670px;
+}
+.readme{
+    position: absolute;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    right: 440px;
+    top: 450px;
+}
+.rrr{
+    color: white;
+    position: absolute;
+    top: 435px;
+    right: 450px;
+}
+.social{
+    position: relative;
+
+}
+.media{
+    position: absolute;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    top: 700px;
+    left: 100px;
+}
+.tt1{
+    position: absolute;
+    color: white;
+    top: 630px;
+    left: 250px;
+}
+.git:hover{
+    color: black;
+}
+
+.git{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    top: 745px;
+    left: 300px;
+}
+.linkedin{
+    position: absolute;
+    text-decoration: none;
+    font-size: 25px;
+    top:805px;
+    left: 300px;
+    color: white;
+}
+.linkedin:hover{
+    color: black;
+}
+.hub{
+    border-radius: 150px;
+    position: absolute;
+    top: 740px;
+    left: 250px;
+}
+.in{
+    border-radius: 150px;
+    position: absolute;
+    top: 800px;
+    left: 250px;
+}
+.projects{
+    position: relative;
+}
+.prj{
+    position: absolute;
+    top: 1200px;
+    right: 100px;
+}
+.tt3{
+    color: white;
+    position: absolute;
+    top: 1000px;
+    right: 700px;
+    z-index: 1;
+
+}
+.spotify{
+    position: absolute;
+    top: 1100px;
+    right: 300px;
+    color: white;
+    z-index: 1;
+}
+.projects1{
+    position: relative;
+}
+.prj1{
+    position: absolute;
+    top: 1600px;
+    left: 100px;
+}
+.netflix{
+    position: absolute;
+    top: 1500px;
+    left: 280px;
+    color: white;
+    z-index: 1;
+}
+.video{
+    position: absolute;
+    top: 1900px;
+    right: 100px;
+}
+.java{
+    position: absolute;
+    top: 1900px;
+    right: 200px;
+    color: white;
+
+}
+.simon{
+    position: relative;
+}
+.prj2{
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+}
+.game{
+    position: absolute;
+    top: 2330px;
+    left: 300px;
+    color: white;
+}
+.prj3{
+    position: absolute;
+    top: 2850px;
+    right: 100px;
+}
+.game1{
+    position: absolute;
+    top: 2770px;
+    right: 250px;
+    color: white;
+}
+.foot{
+    position: absolute;
+    background: rgb(218, 100, 151);
+    background: linear-gradient( #181D72,#B491C5);
+    top: 4000px;
+
+
+}
+.Email{
+    position: absolute;
+    top: 4100px;
+    left: 150px;
+    color: white;
+    font-family: serif;
+    font: size 10px;
+
+}
+.Location{
+    position: absolute;
+    top: 4150px;
+    left: 150px;
+    color: white;
+    font-family: serif;
+}
+.Portfolio1{
+    position: absolute;
+    top: 4050px;
+    left: 150px;
+    color: white;
+    font-family: serif;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
